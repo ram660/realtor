@@ -390,6 +390,17 @@ nav ul li a:hover {
     margin-bottom: 2rem;
 }
 
+.whatsapp-qr {
+    margin: 1.5rem 0;
+    text-align: center;
+}
+
+.whatsapp-qr img {
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+}
+
 /* Footer */
 footer {
     background-color: var(--primary-color);
