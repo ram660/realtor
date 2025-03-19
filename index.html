@@ -110,10 +110,22 @@
 
     <section id="testimonials" class="testimonials">
         <div class="container">
-            <h2>Testimonials</h2>
+            <h2>Client Testimonials</h2>
             <div class="testimonials-container">
                 <div class="testimonials-scroll">
                     <div class="testimonial-card">
+                        <div class="testimonial-header">
+                            <div class="profile-img">
+                                <i class="fas fa-user-circle"></i>
+                            </div>
+                            <div class="testimonial-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
                         <div class="testimonial-content">
                             <blockquote>
                                 <em>We couldn't have asked for a better experience. Raja Allam went above and beyond to ensure we found the perfect home. Their market knowledge is unmatched!</em>
@@ -121,11 +133,23 @@
                         </div>
                         <div class="testimonial-author">
                             <p>Priya Kapoor</p>
-                            <p class="source">Source <a href="#" class="view-all">View All</a></p>
+                            <p class="client-type">First-Time Home Buyer</p>
                         </div>
                     </div>
                     
                     <div class="testimonial-card">
+                        <div class="testimonial-header">
+                            <div class="profile-img">
+                                <i class="fas fa-user-circle"></i>
+                            </div>
+                            <div class="testimonial-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
                         <div class="testimonial-content">
                             <blockquote>
                                 <em>Working with Raja Allam was a game-changer! Their attention to detail and dedication made the entire process smooth and stress-free. I'd recommend them to anyone looking for an honest and reliable agent.</em>
@@ -133,145 +157,280 @@
                         </div>
                         <div class="testimonial-author">
                             <p>John Davis</p>
-                            <p class="source">Source <a href="#" class="view-all">View All</a></p>
+                            <p class="client-type">Property Investor</p>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <div class="testimonial-header">
+                            <div class="profile-img">
+                                <i class="fas fa-user-circle"></i>
+                            </div>
+                            <div class="testimonial-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="testimonial-content">
+                            <blockquote>
+                                <em>Raja's expertise in the Vancouver market helped us sell our home quickly and for above asking price. His marketing strategy and negotiation skills are exceptional!</em>
+                            </blockquote>
+                        </div>
+                        <div class="testimonial-author">
+                            <p>Sarah & Robert Chen</p>
+                            <p class="client-type">Home Sellers</p>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <div class="testimonial-header">
+                            <div class="profile-img">
+                                <i class="fas fa-user-circle"></i>
+                            </div>
+                            <div class="testimonial-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                        <div class="testimonial-content">
+                            <blockquote>
+                                <em>Moving from Toronto to Vancouver was a big step, but Raja made the transition so much easier. His knowledge of different neighborhoods helped us find exactly what we were looking for.</em>
+                            </blockquote>
+                        </div>
+                        <div class="testimonial-author">
+                            <p>Michael Patel</p>
+                            <p class="client-type">Relocation Client</p>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <div class="testimonial-header">
+                            <div class="profile-img">
+                                <i class="fas fa-user-circle"></i>
+                            </div>
+                            <div class="testimonial-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="testimonial-content">
+                            <blockquote>
+                                <em>As a first-time real estate investor, I had countless questions. Raja was always patient and informative, guiding me through the entire process with exceptional advice on investment properties.</em>
+                            </blockquote>
+                        </div>
+                        <div class="testimonial-author">
+                            <p>Jennifer Wong</p>
+                            <p class="client-type">Investment Property Buyer</p>
                         </div>
                     </div>
                 </div>
                 
-                <div class="scroll-indicators">
-                    <button class="scroll-left"><i class="fas fa-chevron-left"></i></button>
-                    <button class="scroll-right"><i class="fas fa-chevron-right"></i></button>
+                <div class="testimonial-navigation">
+                    <div class="scroll-indicators">
+                        <button class="scroll-left"><i class="fas fa-chevron-left"></i></button>
+                        <div class="pagination-dots">
+                            <span class="dot active" data-index="0"></span>
+                            <span class="dot" data-index="1"></span>
+                            <span class="dot" data-index="2"></span>
+                            <span class="dot" data-index="3"></span>
+                            <span class="dot" data-index="4"></span>
+                        </div>
+                        <button class="scroll-right"><i class="fas fa-chevron-right"></i></button>
+                    </div>
                 </div>
             </div>
 
             <style>
-            /* Updated Testimonials Styling to match jovi.ca */
+            /* Enhanced Testimonials Styling */
+            .testimonials {
+                background-color: #f8f9fa;
+                padding: 3rem 0;
+            }
+
+            .testimonials h2 {
+                text-align: center;
+                margin-bottom: 2rem;
+                color: #333;
+                position: relative;
+            }
+
+            .testimonials h2:after {
+                content: '';
+                position: absolute;
+                bottom: -10px;
+                left: 50%;
+                transform: translateX(-50%);
+                width: 60px;
+                height: 3px;
+                background-color: #1a73e8;
+            }
+
             .testimonials-container {
                 position: relative;
                 margin: 2rem 0;
+                max-width: 1000px;
+                margin: 0 auto;
             }
 
             .testimonials-scroll {
                 display: flex;
-                overflow-x: auto;
+                overflow-x: hidden;
                 scroll-behavior: smooth;
                 padding: 1rem 0.5rem;
-                -ms-overflow-style: none;  /* IE and Edge */
-                scrollbar-width: none;  /* Firefox */
+                -ms-overflow-style: none;
+                scrollbar-width: none;
+                scroll-snap-type: x mandatory;
             }
 
             .testimonials-scroll::-webkit-scrollbar {
-                display: none; /* Chrome, Safari, Opera */
+                display: none;
             }
 
             .testimonial-card {
                 flex: 0 0 auto;
                 width: 90%;
-                max-width: 800px;
-                margin-right: 20px;
+                max-width: 600px;
+                margin: 0 auto;
                 padding: 2rem;
-                border-radius: 5px;
-                background-color: #f9f9f9;
-                transition: transform 0.3s ease;
+                border-radius: 8px;
+                background-color: #fff;
+                box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+                transition: all 0.3s ease;
+                scroll-snap-align: center;
+                margin-right: 20px;
+                display: flex;
+                flex-direction: column;
+                height: auto;
+            }
+
+            .testimonial-card:hover {
+                transform: translateY(-5px);
+                box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+            }
+
+            .testimonial-header {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-bottom: 1rem;
+            }
+
+            .profile-img {
+                font-size: 3rem;
+                color: #1a73e8;
+            }
+
+            .testimonial-rating {
+                color: #FFD700;
+            }
+
+            .testimonial-content {
+                flex: 1;
             }
 
             .testimonial-content blockquote {
                 font-size: 1.1rem;
                 line-height: 1.6;
                 margin: 0 0 1.5rem 0;
-                border-left: none;
-                padding: 0;
+                border-left: 3px solid #1a73e8;
+                padding-left: 1rem;
+                color: #555;
             }
 
             .testimonial-author {
-                text-align: left;
+                text-align: right;
+                border-top: 1px solid #eee;
+                padding-top: 1rem;
             }
 
             .testimonial-author p {
                 margin: 0;
                 font-size: 1.1rem;
-                font-weight: 500;
+                font-weight: 600;
+                color: #333;
             }
 
-            .source {
+            .client-type {
                 font-size: 0.9rem;
                 color: #777;
-                margin-top: 0.5rem;
+                font-weight: normal;
             }
 
-            .view-all {
-                color: #1a73e8;
-                text-decoration: none;
-            }
-
-            .view-all:hover {
-                text-decoration: underline;
+            .testimonial-navigation {
+                display: flex;
+                justify-content: center;
+                margin-top: 2rem;
             }
 
             .scroll-indicators {
                 display: flex;
+                align-items: center;
                 justify-content: center;
-                margin-top: 1rem;
+            }
+
+            .pagination-dots {
+                display: flex;
+                justify-content: center;
+                margin: 0 15px;
+            }
+
+            .dot {
+                height: 10px;
+                width: 10px;
+                background-color: #bbb;
+                border-radius: 50%;
+                display: inline-block;
+                margin: 0 5px;
+                cursor: pointer;
+                transition: background-color 0.3s ease;
+            }
+
+            .dot.active {
+                background-color: #1a73e8;
+                width: 12px;
+                height: 12px;
             }
 
             .scroll-left, .scroll-right {
-                background: #f8f8f8;
-                border: none;
+                background: #fff;
+                border: 1px solid #ddd;
                 border-radius: 50%;
                 width: 40px;
                 height: 40px;
-                margin: 0 5px;
+                margin: 0;
                 cursor: pointer;
                 box-shadow: 0 2px 5px rgba(0,0,0,0.1);
                 transition: all 0.3s ease;
+                display: flex;
+                align-items: center;
+                justify-content: center;
             }
 
             .scroll-left:hover, .scroll-right:hover {
-                background: #e9e9e9;
+                background: #f0f0f0;
+                color: #1a73e8;
+            }
+
+            @media (max-width: 768px) {
+                .testimonial-card {
+                    width: 85%;
+                    padding: 1.5rem;
+                }
+                
+                .testimonial-content blockquote {
+                    font-size: 1rem;
+                }
             }
             </style>
-
-            <div class="write-review-container">
-                <h3>Your Dream Home is Just a Click Away!</h3>
-                <form id="reviewForm" class="review-form">
-                    <div class="form-group">
-                        <label for="reviewName">First Name*</label>
-                        <input type="text" id="reviewName" name="reviewName" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="reviewLastName">Last Name*</label>
-                        <input type="text" id="reviewLastName" name="reviewLastName" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="reviewEmail">Email*</label>
-                        <input type="email" id="reviewEmail" name="reviewEmail" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="reviewPhone">Phone*</label>
-                        <input type="tel" id="reviewPhone" name="reviewPhone" required>
-                    </div>
-                    <div class="form-group">
-                        <label>Type*</label>
-                        <div class="radio-group">
-                            <label><input type="radio" name="phoneType" value="Home" checked> Home</label>
-                            <label><input type="radio" name="phoneType" value="Cell"> Cell</label>
-                            <label><input type="radio" name="phoneType" value="Work"> Work</label>
-                            <label><input type="radio" name="phoneType" value="Fax"> Fax</label>
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <label>
-                            <input type="checkbox" name="receiveUpdates"> Receive Our Email Updates
-                        </label>
-                        <small>Privacy Policy</small>
-                    </div>
-                    <div class="form-group">
-                        <label for="reviewText">Comment*</label>
-                        <textarea id="reviewText" name="reviewText" rows="4" required></textarea>
-                    </div>
-                    <button type="submit" class="btn btn-primary">Submit</button>
-                </form>
-            </div>
         </div>
     </section>
 
@@ -458,65 +617,94 @@
 
     <script src="scripts.js"></script>
     <script>
+    // Update the testimonials scroll functionality to be more interactive
     document.addEventListener('DOMContentLoaded', function() {
-        // Horizontal scroll with buttons
         const scrollContainer = document.querySelector('.testimonials-scroll');
         const scrollLeftBtn = document.querySelector('.scroll-left');
         const scrollRightBtn = document.querySelector('.scroll-right');
+        const dots = document.querySelectorAll('.dot');
+        const testimonialCards = document.querySelectorAll('.testimonial-card');
         
+        let activeIndex = 0;
+        const cardWidth = testimonialCards[0].offsetWidth + 20; // +20 for margin-right
+        
+        // Function to update active dot
+        function updateActiveDot(index) {
+            dots.forEach(dot => dot.classList.remove('active'));
+            dots[index].classList.add('active');
+        }
+        
+        // Function to scroll to a specific card
+        function scrollToCard(index) {
+            if (index < 0) index = 0;
+            if (index >= testimonialCards.length) index = testimonialCards.length - 1;
+            
+            activeIndex = index;
+            scrollContainer.scrollTo({
+                left: cardWidth * index,
+                behavior: 'smooth'
+            });
+            
+            updateActiveDot(index);
+        }
+        
+        // Set up dot click events
+        dots.forEach((dot, index) => {
+            dot.addEventListener('click', () => {
+                scrollToCard(index);
+            });
+        });
+        
+        // Set up button click events
         scrollLeftBtn.addEventListener('click', () => {
-            scrollContainer.scrollBy({ left: -320, behavior: 'smooth' });
+            scrollToCard(activeIndex - 1);
         });
         
         scrollRightBtn.addEventListener('click', () => {
-            scrollContainer.scrollBy({ left: 320, behavior: 'smooth' });
+            scrollToCard(activeIndex + 1);
         });
         
-        // Star rating functionality
-        const starRating = document.querySelector('.star-rating');
-        const stars = starRating.querySelectorAll('i');
-        const ratingInput = document.getElementById('reviewRating');
-        
-        stars.forEach(star => {
-            star.addEventListener('click', () => {
-                const rating = star.dataset.rating;
-                ratingInput.value = rating;
-                
-                // Update star visuals
-                stars.forEach(s => {
-                    if (s.dataset.rating <= rating) {
-                        s.classList.remove('far');
-                        s.classList.add('fas');
-                    } else {
-                        s.classList.remove('fas');
-                        s.classList.add('far');
-                    }
-                });
-            });
+        // Handle scroll events to update active dot
+        scrollContainer.addEventListener('scroll', () => {
+            const scrollPosition = scrollContainer.scrollLeft;
+            const index = Math.round(scrollPosition / cardWidth);
+            
+            if (index !== activeIndex) {
+                activeIndex = index;
+                updateActiveDot(index);
+            }
         });
         
-        // Review form submission (placeholder - would need backend integration)
-        const reviewForm = document.getElementById('reviewForm');
-        reviewForm.addEventListener('submit', function(e) {
-            e.preventDefault();
-            
-            // Get form data
-            const name = document.getElementById('reviewName').value;
-            const role = document.getElementById('reviewRole').value;
-            const rating = document.getElementById('reviewRating').value;
-            const text = document.getElementById('reviewText').value;
-            
-            // This would normally send data to a backend
-            alert('Thank you for your review! In a real implementation, this would be saved to a database.');
-            
-            // Reset form
-            reviewForm.reset();
-            stars.forEach(s => {
-                s.classList.remove('fas');
-                s.classList.add('far');
-            });
-            ratingInput.value = 0;
-        });
+        // Auto-scroll functionality
+        let autoScrollInterval;
+        
+        function startAutoScroll() {
+            autoScrollInterval = setInterval(() => {
+                if (activeIndex >= testimonialCards.length - 1) {
+                    scrollToCard(0);
+                } else {
+                    scrollToCard(activeIndex + 1);
+                }
+            }, 5000); // Change testimonial every 5 seconds
+        }
+        
+        function stopAutoScroll() {
+            clearInterval(autoScrollInterval);
+        }
+        
+        // Start auto-scroll when page loads
+        startAutoScroll();
+        
+        // Pause auto-scroll when user interacts with testimonials
+        scrollContainer.addEventListener('mouseenter', stopAutoScroll);
+        scrollContainer.addEventListener('touchstart', stopAutoScroll);
+        
+        // Resume auto-scroll when user stops interacting
+        scrollContainer.addEventListener('mouseleave', startAutoScroll);
+        scrollContainer.addEventListener('touchend', startAutoScroll);
+        
+        // Initialize first dot as active
+        updateActiveDot(0);
     });
     </script>
 </body>
