@@ -110,102 +110,30 @@
 
     <section id="testimonials" class="testimonials">
         <div class="container">
-            <h2>Client Testimonials</h2>
+            <h2>Testimonials</h2>
             <div class="testimonials-container">
                 <div class="testimonials-scroll">
                     <div class="testimonial-card">
-                        <div class="testimonial-rating">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </div>
                         <div class="testimonial-content">
                             <blockquote>
-                                "Raja helped us find our dream home in Vancouver. His expertise and dedication made the process seamless and enjoyable."
+                                <em>We couldn't have asked for a better experience. Raja Allam went above and beyond to ensure we found the perfect home. Their market knowledge is unmatched!</em>
                             </blockquote>
                         </div>
                         <div class="testimonial-author">
-                            <div class="author-image">
-                                <i class="fas fa-user-circle"></i>
-                            </div>
-                            <div class="author-info">
-                                <h4>John Doe</h4>
-                                <p>Home Buyer</p>
-                            </div>
+                            <p>Priya Kapoor</p>
+                            <p class="source">Source <a href="#" class="view-all">View All</a></p>
                         </div>
                     </div>
                     
                     <div class="testimonial-card">
-                        <div class="testimonial-rating">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </div>
                         <div class="testimonial-content">
                             <blockquote>
-                                "I highly recommend Raja for anyone looking to buy or sell property. His market knowledge is unparalleled."
+                                <em>Working with Raja Allam was a game-changer! Their attention to detail and dedication made the entire process smooth and stress-free. I'd recommend them to anyone looking for an honest and reliable agent.</em>
                             </blockquote>
                         </div>
                         <div class="testimonial-author">
-                            <div class="author-image">
-                                <i class="fas fa-user-circle"></i>
-                            </div>
-                            <div class="author-info">
-                                <h4>Jane Smith</h4>
-                                <p>Property Investor</p>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="testimonial-card">
-                        <div class="testimonial-rating">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </div>
-                        <div class="testimonial-content">
-                            <blockquote>
-                                "Raja's attention to detail and commitment to his clients is truly exceptional."
-                            </blockquote>
-                        </div>
-                        <div class="testimonial-author">
-                            <div class="author-image">
-                                <i class="fas fa-user-circle"></i>
-                            </div>
-                            <div class="author-info">
-                                <h4>Emily Johnson</h4>
-                                <p>Home Seller</p>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="testimonial-card">
-                        <div class="testimonial-rating">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star-half-alt"></i>
-                        </div>
-                        <div class="testimonial-content">
-                            <blockquote>
-                                "Working with Raja made my first home purchase stress-free. His guidance throughout the process was invaluable."
-                            </blockquote>
-                        </div>
-                        <div class="testimonial-author">
-                            <div class="author-image">
-                                <i class="fas fa-user-circle"></i>
-                            </div>
-                            <div class="author-info">
-                                <h4>Michael Brown</h4>
-                                <p>First-Time Buyer</p>
-                            </div>
+                            <p>John Davis</p>
+                            <p class="source">Source <a href="#" class="view-all">View All</a></p>
                         </div>
                     </div>
                 </div>
@@ -215,34 +143,133 @@
                     <button class="scroll-right"><i class="fas fa-chevron-right"></i></button>
                 </div>
             </div>
-            
+
+            <style>
+            /* Updated Testimonials Styling to match jovi.ca */
+            .testimonials-container {
+                position: relative;
+                margin: 2rem 0;
+            }
+
+            .testimonials-scroll {
+                display: flex;
+                overflow-x: auto;
+                scroll-behavior: smooth;
+                padding: 1rem 0.5rem;
+                -ms-overflow-style: none;  /* IE and Edge */
+                scrollbar-width: none;  /* Firefox */
+            }
+
+            .testimonials-scroll::-webkit-scrollbar {
+                display: none; /* Chrome, Safari, Opera */
+            }
+
+            .testimonial-card {
+                flex: 0 0 auto;
+                width: 90%;
+                max-width: 800px;
+                margin-right: 20px;
+                padding: 2rem;
+                border-radius: 5px;
+                background-color: #f9f9f9;
+                transition: transform 0.3s ease;
+            }
+
+            .testimonial-content blockquote {
+                font-size: 1.1rem;
+                line-height: 1.6;
+                margin: 0 0 1.5rem 0;
+                border-left: none;
+                padding: 0;
+            }
+
+            .testimonial-author {
+                text-align: left;
+            }
+
+            .testimonial-author p {
+                margin: 0;
+                font-size: 1.1rem;
+                font-weight: 500;
+            }
+
+            .source {
+                font-size: 0.9rem;
+                color: #777;
+                margin-top: 0.5rem;
+            }
+
+            .view-all {
+                color: #1a73e8;
+                text-decoration: none;
+            }
+
+            .view-all:hover {
+                text-decoration: underline;
+            }
+
+            .scroll-indicators {
+                display: flex;
+                justify-content: center;
+                margin-top: 1rem;
+            }
+
+            .scroll-left, .scroll-right {
+                background: #f8f8f8;
+                border: none;
+                border-radius: 50%;
+                width: 40px;
+                height: 40px;
+                margin: 0 5px;
+                cursor: pointer;
+                box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+                transition: all 0.3s ease;
+            }
+
+            .scroll-left:hover, .scroll-right:hover {
+                background: #e9e9e9;
+            }
+            </style>
+
             <div class="write-review-container">
-                <h3>Share Your Experience</h3>
+                <h3>Your Dream Home is Just a Click Away!</h3>
                 <form id="reviewForm" class="review-form">
                     <div class="form-group">
-                        <label for="reviewName">Your Name</label>
+                        <label for="reviewName">First Name*</label>
                         <input type="text" id="reviewName" name="reviewName" required>
                     </div>
                     <div class="form-group">
-                        <label for="reviewRole">Your Role (e.g., Home Buyer, Investor)</label>
-                        <input type="text" id="reviewRole" name="reviewRole" required>
+                        <label for="reviewLastName">Last Name*</label>
+                        <input type="text" id="reviewLastName" name="reviewLastName" required>
                     </div>
                     <div class="form-group">
-                        <label for="reviewRating">Your Rating</label>
-                        <div class="star-rating">
-                            <i class="far fa-star" data-rating="1"></i>
-                            <i class="far fa-star" data-rating="2"></i>
-                            <i class="far fa-star" data-rating="3"></i>
-                            <i class="far fa-star" data-rating="4"></i>
-                            <i class="far fa-star" data-rating="5"></i>
-                            <input type="hidden" id="reviewRating" name="reviewRating" value="0" required>
+                        <label for="reviewEmail">Email*</label>
+                        <input type="email" id="reviewEmail" name="reviewEmail" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="reviewPhone">Phone*</label>
+                        <input type="tel" id="reviewPhone" name="reviewPhone" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Type*</label>
+                        <div class="radio-group">
+                            <label><input type="radio" name="phoneType" value="Home" checked> Home</label>
+                            <label><input type="radio" name="phoneType" value="Cell"> Cell</label>
+                            <label><input type="radio" name="phoneType" value="Work"> Work</label>
+                            <label><input type="radio" name="phoneType" value="Fax"> Fax</label>
                         </div>
                     </div>
                     <div class="form-group">
-                        <label for="reviewText">Your Review</label>
+                        <label>
+                            <input type="checkbox" name="receiveUpdates"> Receive Our Email Updates
+                        </label>
+                        <small>Privacy Policy</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="reviewText">Comment*</label>
                         <textarea id="reviewText" name="reviewText" rows="4" required></textarea>
                     </div>
-                    <button type="submit" class="btn btn-primary">Submit Review</button>
+                    <button type="submit" class="btn btn-primary">Submit</button>
                 </form>
             </div>
         </div>
